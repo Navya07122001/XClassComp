@@ -34,7 +34,7 @@ class XClassComp extends Component {
         return (
             <div>
             <h1>Counter App</h1>
-            <p>{this.state.counter}</p>
+            <p>Count: {this.state.counter}</p>
             <button type="button" onClick={this.handleIncrement} style={{width:'auto',height:'auto'}}>Increment</button>
             <button type="button" onClick={this.handleDecrement} style={{width:'auto',height:'auto'}}>Decrement</button>
 
